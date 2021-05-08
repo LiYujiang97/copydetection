@@ -1,8 +1,6 @@
 import cv2
 import numpy
-
 import CNNProcess
-import autoEncoder
 import os
 import random
 import util

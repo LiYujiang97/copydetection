@@ -36,16 +36,3 @@ if __name__ == '__main__':
                                           per_copy_num=20, remove_exist_output_dir=False, add_gaussian_noise=False,
                                           add_salt_noise=False, add_crop=True, add_scale=False, add_rotate=True,
                                           random_use_attack=False)
-    # imageUtils.batch_generate_copy_images(r"D:\Work\academic\copyImagesMaterial",
-    #                                       r"D:\Work\academic\copyImagesMaterial_rotate",sub_dir_num_limit=50,
-    #                                       per_copy_num=20, remove_exist_output_dir=False, add_noise=False,
-    #                                       add_crop=False, add_scale=False, add_rotate=True, random_use_attack=False)
-    # imageUtils.batch_center_crop_images(r"D:\Work\academic\ForrestGumpMaterial\ForrestGumpAllSimilarMaterial",
-    #                                     r"D:\Work\academic\ForrestGumpMaterial\CenterCropForrestGumpAllSimilarMaterial")
-    # imageUtils.batch_resize_images(r"D:\Work\academic\LoveLetterMaterial\CenterCropLoveLetterIFPSMaterial",
-    #                                r"D:\Work\academic\LoveLetterMaterial\ResizeCenterCropLoveLetterIFPSMaterial", 512,
-    #                                True)
-    # imageUtils.batch_generate_copy_images(r"D:\Work\academic\myTestImage\mutualSimilarCopyGroundTruth\train",
-    #                                       r"D:\Work\academic\myTestImage\mutualSimilarCopyGroundTruth\train",
-    #                                       per_copy_num=20, remove_exist_output_dir=False, add_noise=False,
-    #                                       add_crop=True, add_scale=False, add_rotate=True)

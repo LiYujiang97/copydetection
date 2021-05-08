@@ -13,10 +13,8 @@ import resnet
 import matplotlib.pyplot as plt
 from torch.autograd import Variable
 import numpy as np
-
 import dataAnalyze
 import cv2
-import AuxResnet
 
 
 def resNet_valuate(data_loader, dataset, use_gpu, is_image_gray=True, model_name="resNet"):
